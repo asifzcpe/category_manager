@@ -49,3 +49,23 @@ php -S localhost:8000 -t public/
 ```bash
 composer test
 ```
+### OR
+```bash
+./vendor/bin/phpunit
+```
+
+### Folder structure of the application
+<img width="301" alt="image" src="https://user-images.githubusercontent.com/22665561/228658090-54ccdfc7-b25c-4b57-952a-5641fdf107ee.png">
+
+<details>
+ <summary>config</summary>
+ <p>It containes bootstrap.php file to load the application </p>
+</details>
+<details>
+ <summary>public</summary>
+ <p>This folder contains assets folder for example css and also contain index.php file that is the main gateway to access the application</p>
+</details>
+<details>
+ <summary>src</summary>
+ <p>This folder contains all the necessary files and folders related to the project logic</p>
+</details>
