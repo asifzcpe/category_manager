@@ -28,6 +28,7 @@
         "start": "php -S localhost:8000 -t public/",
         "import": "php data_importer.php",
         "fix-cs": "php-cs-fixer fix",
-        "test-cs": "php-cs-fixer fix --dry-run -v"
+        "test-cs": "php-cs-fixer fix --dry-run -v",
+        "test": "./vendor/bin/phpunit"
     }
 }
