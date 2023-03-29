@@ -37,13 +37,13 @@ php -S localhost:8000 -t public/
 ```
 
 #### 5. Now, the application server has been started. write `localhost:8000` in your browser's address bar and you can see a home page like the following:
-<img width="1464" alt="image" src="https://user-images.githubusercontent.com/22665561/228655583-eb3669fc-ff26-4fd8-b200-68049f352d17.png">
+<img width="1459" alt="image" src="https://user-images.githubusercontent.com/22665561/228660870-5b50f9d5-42cc-4827-a840-a6bc485d7c05.png">
 
 #### 6. Click on Category List button and you will see the following results:
 <img width="1464" alt="image" src="https://user-images.githubusercontent.com/22665561/228655850-419cd272-7b9e-4272-a070-cc6975f9a9f2.png">
 
 #### 7. Click on Category Tree button and you will see the following results:
-<img width="1464" alt="image" src="https://user-images.githubusercontent.com/22665561/228656069-1bbc2113-6003-4b8c-9672-40d7807f42b8.png">
+<img width="1459" alt="image" src="https://user-images.githubusercontent.com/22665561/228661054-3ef73dd5-d0a9-4ee4-9c20-b11eee523db3.png">
 
 ### To run unit tests, execute the following command:
 ```bash
@@ -68,4 +68,28 @@ composer test
 <details>
  <summary>src</summary>
  <p>This folder contains all the necessary files and folders related to the project logic</p>
+  <details>
+  <summary>Controllers</summary>
+  <p>It contains controller files like other frameworks</p>
+</details>
+ <details>
+  <summary>Core</summary>
+  <p>This folder contains all the necessary logics to structure the project as MVC</p>
+</details>
+ <details>
+  <summary>Models</summary>
+  <p>Contains files to execite database queries using PDO</p>
+</details>
+ <details>
+  <summary>Services</summary>
+  <p>Business logic for genrating tree like structure of categories</p>
+</details>
+ <details>
+  <summary>Views</summary>
+  <p>It mainly contains html code to create contents</p>
+</details>
+</details>
+<details>
+  <summary>test</summary>
+  <p>Test cases have been written here</p>
 </details>
