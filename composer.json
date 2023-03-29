@@ -1,0 +1,33 @@
+{
+    "name": "wedevs/category_manager",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asifzcpe",
+            "email": "rahmanasif05004@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.12",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public/",
+        "import": "php data_importer.php",
+        "fix-cs": "php-cs-fixer fix",
+        "test-cs": "php-cs-fixer fix --dry-run -v"
+    }
+}
